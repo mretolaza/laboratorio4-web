@@ -1,13 +1,12 @@
 body {
 	background-color: #e1e7d3;
 }
-.wrap {
+.marco {
     width: 255px;
-    height: 510px;
-    display:block;
+    height: 600px;
     position: relative;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 15%;
 }
 
 .base {
@@ -34,67 +33,62 @@ body {
 	top: 172px;
 	width: 220px;
 	height: 225px;
-	margin-left: -110px; left: 50%;
+	margin-left: -110px; 
+	left: 50%;
 	border-radius: 110px;
-	z-index: 1;
 }
-.cuerpovert {
+.cuerpo-vert {
 	top: 107px;
-	width: 130px;
-	height: 56px;
-	margin-left: -65px;	left: 50%;
-	z-index: 2;
+	width:  137px;;
+	height: 60px;
+	margin-left: -70px;	
+	left: 50%;
 
 }
-.cuerpohoriz {
+.cuerpo-horiz {
 	top: 163px;
 	width: 194px;
 	height:63px;
 	margin-left: -97px;	left: 50%;
-	z-index: 2;
 }
 
-.formabrazo {
+.forma-brazo {
 	top:192px;
 	width:38px;
 	height: 104px;
 	border-radius: 40px / 100px;
-	z-index: 3;
 }
 .izquierda {left: 0;}
 .derecha {right: 0;}
 
-.arm {
+.cuerpo-brazo {
 	top:83px;
 	width: 35px;
 	height: 131px;
-	z-index: 4;
 }
 .rotateleft {
 	left: 37px;
-	transform:         rotate(27deg);
+	transform: rotate(27deg);
 }
 .rotateright {
 	right: 36px;
-	transform:         rotate(333deg);
+	transform: rotate(333deg);
 }
 
-.earstemleft {
+.oreja-izquierda {
 	top: 55px;
 	left: 80px;
 	width: 9px;
 	height: 25px;
-	z-index: 4;
-	transform:         rotate(348deg);
+	transform: rotate(348deg);
 }
 
-.earstemright {
+.oreja-derecha {
 	top: 50px;
 	right: 86px;
 	width: 9px;
 	height: 25px;
-	z-index: 4;
-	transform:         rotate(5deg);
+	transform: rotate(5deg);
 }
 
 
@@ -103,16 +97,16 @@ body {
 	border: 15px solid transparent;
 	border-bottom: 41px solid #a4978e;
 	position: relative;
-	left: 61px;	top: -4px;
-	transform:         rotate(350deg);
-	z-index: 5;
+	left: 61px;	
+	top: -4px;
+	transform: rotate(350deg);
 }
 
 .ear-left:after {
 	content: '';
 	position: absolute;
-	left: -16px; top: 39px;
-	width: 0;height: 0;
+	left: -16px; 
+	top: 39px;
 	border: 15px solid transparent;
 	border-top: 10px solid #a4978e;
 }
@@ -122,16 +116,16 @@ body {
 	border: 15px solid transparent;
 	border-bottom: 41px solid #a4978e;
 	position: relative;
-	right: -152px;	top: -64px;
+	right: -152px;	
+	top: -64px;
 	transform: rotate(3deg);
-	z-index: 5;
 }
 
 .ear-right:after {
 	content: '';
 	position: absolute;
-	right: -14px; top: 39px;
-	width: 0;height: 0;
+	right: -14px; 
+	top: 39px;
 	border: 15px solid transparent;
 	border-top: 10px solid #a4978e;
 }
@@ -141,7 +135,6 @@ body {
 	width: 24px;
 	height: 24px;
 	border-radius: 12px;
-	z-index: 6;
 	position: absolute;
 	background-color: #fcfcfc;
 }
@@ -157,9 +150,9 @@ body {
 	top: 106px;
 	width: 30px;
 	height: 10px;
-	margin-left: -15px;	left: 50%;
+	margin-left: -15px;	
+	left: 50%;
 	border-radius: 20px / 7px;
-	z-index: 6;
 	position: absolute;
 	background-color: #5f5852;
 }
@@ -168,9 +161,9 @@ body {
 	top: 157px;
 	width: 200px;
 	height: 214px;
-	margin-left: -100px;	left: 50%;
+	margin-left: -100px;	
+	left: 50%;
 	border-radius: 100px / 107px;
-	z-index: 6;
 	position: absolute;
 	background-color: #efdccb;
 }
@@ -182,7 +175,6 @@ body {
 	border-radius: 9px;
 	position: absolute;
 	background-color: #5a534e;
-	z-index: 7;
 }
 
 .pupilleft {
@@ -200,12 +192,12 @@ body {
 	height: 14px;
 	border-radius: 100px / 50px;
 	background-color: #89775a;
-	z-index: 7;
 }
 .marking:after {
 	content: '';
 	position: absolute;
-	top: 4px; left: -7px;
+	top: 4px; 
+	left: -7px;
 	width: 44px;
 	height: 30px;
 	border-radius: 100px / 80px;
@@ -251,20 +243,20 @@ body {
 	transform: rotate(9deg);
 }
 
-
-
 .flatfeet {
 	top: 381px;
 	width: 124px;
 	height: 20px;
-	margin-left: -62px;	left: 50%;
+	margin-left: -62px;	
+	left: 50%;
 }
 
 .splitfeet {
 	top: 378px;
 	width: 8px;
 	height: 18px;
-	margin-left: -4px;	left: 50%;
+	margin-left: -4px;	
+	left: 50%;
 	transform: rotate(45deg);
 }
 
