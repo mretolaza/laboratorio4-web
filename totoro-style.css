@@ -14,7 +14,7 @@ body {
 	position: absolute;
 }
 
-.trim {
+.marco-pie {
 	position: absolute;
 	background-color: #e1e7d3;
 	z-index: 100;
@@ -157,7 +157,7 @@ body {
 	background-color: #5f5852;
 }
 
-.bellybacker {
+.estomago-principal {
 	top: 157px;
 	width: 200px;
 	height: 214px;
@@ -168,7 +168,7 @@ body {
 	background-color: #efdccb;
 }
 
-.pupil {
+.pupila {
 	width: 9px;
 	height:9px;
 	top: 103px;
@@ -177,23 +177,23 @@ body {
 	background-color: #5a534e;
 }
 
-.pupilleft {
+.pupila-izquierda {
 	left: 80px;
 }
 
-.pupilright {
+.pupila-derecha {
 	right: 82px;
 	top:102px;
 }
 
-.marking {
+.diseño-estomago {
 	position: absolute;
 	width: 30px;
 	height: 14px;
 	border-radius: 100px / 50px;
 	background-color: #89775a;
 }
-.marking:after {
+.diseño-estomago:after {
 	content: '';
 	position: absolute;
 	top: 4px; 
@@ -204,40 +204,40 @@ body {
 	background-color: #efdccb;
 }
 
-.mark1 {
+.marca-estomago1 {
 	top: 185px;
 	left: 73px;
 	transform: rotate(350deg);
 }
 
-.mark2 {
+.marca-estomago2 {
 	top: 180px;
 	left: 113px;
 }
 
-.mark3 {
+.marca-estomago3 {
 	top: 185px;
 	left: 153px;
 	transform: rotate(8deg);	
 }
 
-.mark4 {
+.marca-estomago4 {
 	top: 215px;
 	left: 51px;
 	transform: rotate(345deg);
 }
 
-.mark5 {
+.marca-estomago5 {
 	top: 209px;
 	left: 91px;
 }
 
-.mark6 {
+.marca-estomago6 {
 	top: 209px;
 	left: 131px;
 }
 
-.mark7 {
+.marca-estomago7 {
 	top: 215px;
 	left: 171px;
 	transform: rotate(9deg);
