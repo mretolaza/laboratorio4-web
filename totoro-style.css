@@ -95,7 +95,7 @@ body {
 .cuerpo-oreja-izquierda {
 	width: 0; height: 0;
 	border: 15px solid transparent;
-	border-bottom: 41px solid #a4978e;
+	border-bottom: 40px solid #a4978e;
 	position: relative;
 	left: 61px;	
 	top: -4px;
@@ -104,17 +104,18 @@ body {
 
 .cuerpo-oreja-izquierda:after {
 	content: '';
-	position: absolute;
-	left: -16px; 
-	top: 39px;
-	border: 15px solid transparent;
-	border-top: 10px solid #a4978e;
+    position: absolute;
+    left: -15px;
+    top: 39px;
+    border: 15px solid transparent;
+    border-top: 18px solid #a4978e;
 }
 
 .cuerpo-oreja-derecha {
-	width: 0; height: 0;
+	width: 0; 
+	height: 0;
 	border: 15px solid transparent;
-	border-bottom: 41px solid #a4978e;
+	border-bottom: 40px solid #a4978e;
 	position: relative;
 	right: -152px;	
 	top: -64px;
@@ -123,11 +124,11 @@ body {
 
 .cuerpo-oreja-derecha:after {
 	content: '';
-	position: absolute;
-	right: -14px; 
-	top: 39px;
-	border: 15px solid transparent;
-	border-top: 10px solid #a4978e;
+    position: absolute;
+    right: -15px;
+    top: 38px;
+    border: 15px solid transparent;
+    border-top: 18px solid #a4978e;
 }
 
 .forma-del-ojo {
@@ -139,10 +140,10 @@ body {
     background-color: #fcfcfc;
 }
 
-.eyeleft {
+.pupila-blanca-izquierda {
 	left: 73px;
 }
-.eyeright {
+.pupila-blanca-derecha {
 	right: 74px;
 	top: 94px;
 }
@@ -243,7 +244,7 @@ body {
 	transform: rotate(9deg);
 }
 
-.flatfeet {
+.planta-pie {
 	top: 384px;
     width: 115px;
     height: 25px;
@@ -251,15 +252,11 @@ body {
     left: 50%;
 }
 
-.splitfeet {
+.abertura-del-pie {
 	top: 378px;
 	width: 8px;
 	height: 18px;
 	margin-left: -4px;	
 	left: 50%;
 	transform: rotate(45deg);
-}
-
-a:hover {
-	color: #5f5852;
 }
